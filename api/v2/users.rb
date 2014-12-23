@@ -3,7 +3,7 @@ module API
     class Users < Grape::API
       resource :users do
         get do
-          {'users' => 'all users of version 2'}
+          {'users' => 'all users in v2 comes here'}
         end
       end
     end

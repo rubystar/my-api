@@ -3,7 +3,7 @@ module API
     class Todos < Grape::API
       resource :todos do
         get do
-          {'todos' => 'all todos in version 2'}
+          {'todos' => 'all todos in v2 comes here'}
         end
       end
     end
